@@ -11,4 +11,11 @@ Para replicar este proyecto solo es necesario seguir los siguientes pasos en el 
   
  <b> -Paso 4:</b> Para organizar y graficar los resultados obtenidos de los archivos de consumo de la tarjeta, se ejecuta el archivo python llamado "graficas.py", el cual permite además de graficar, obtener datos estadísticos de cada campo del dataset de lectura con ayuda del archivo "parse..py".  Gracias a estos resultados podemos evaluar la eficiencia computacional de los algoritmos y el comportamiento del proceso de identificación en el sistema embebido.
   
-<b>Bonus Track:</b>  Además de la identificación de los incendios en las imágenes satelitales, el algoritmo IGNIS también los ubica y genera sus coordenadas relativas dentro de la misma.  Estos resultados adicionales se almacenan en la carpeta llamada "resultados"
+<b>Bonus Track:</b>  Además de la identificación de los incendios en las imágenes satelitales, el algoritmo IGNIS también los ubica y genera sus coordenadas relativas dentro de la misma.  Estos resultados adicionales se almacenan en la carpeta llamada "resultados".
+  
+<b>A Futuro: </b>  
+  
+•	Evaluación de IGNIS en otras líneas de investigación como cultivos de precisión, medicina, desarrollo urbano, y en general, en todas aquellas situaciones en donde el color del objeto sea un parámetro de identificación y diferenciación.
+
+•	Despliegue de IGNIS sobre otras plataformas integradas, ya sea para evaluar los límites mínimos de requisitos computacionales, o para evaluar los tiempos de respuesta utilizando mayores recursos.
+
