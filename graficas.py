@@ -5,12 +5,10 @@ import seaborn as sns
 parser1 = Parse(1000, "datos.txt")
 csv_file1 = parser1.parse_file()
 dataset1 = pd.read_csv(csv_file1, skiprows=1, header=0, index_col=0)
-dataset1 = dataset1.drop(dataset1[(dataset1['Time (mS)']>400000) & (dataset1['Time (mS)']<450000) ].index)
 
 parser2 = Parse(1000, "datos2.txt")
 csv_file2 = parser2.parse_file()
 dataset2 = pd.read_csv(csv_file2, skiprows=1, header=0, index_col=0)
-dataset2 = dataset2.drop(dataset2[(dataset2['Time (mS)']>70000) & (dataset2['Time (mS)']<110000) ].index)
 
 parser3 = Parse(1000, "datos3.txt")
 csv_file3 = parser3.parse_file()
